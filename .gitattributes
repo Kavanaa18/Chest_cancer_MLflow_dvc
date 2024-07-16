@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+research/chest_cancer_data.zip filter=lfs diff=lfs merge=lfs -text
