@@ -15,5 +15,5 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
-tensorflow==2.13.0
+tensorflow==2.12.0
 -e .
