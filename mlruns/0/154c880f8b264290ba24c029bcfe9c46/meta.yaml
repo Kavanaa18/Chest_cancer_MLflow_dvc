@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/projects/chest_cancer/Chest_cancer_MLflow_dvc/mlruns/0/154c880f8b264290ba24c029bcfe9c46/artifacts
+end_time: 1721449908973
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 154c880f8b264290ba24c029bcfe9c46
+run_name: clean-cow-13
+run_uuid: 154c880f8b264290ba24c029bcfe9c46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721449881635
+status: 3
+tags: []
+user_id: kavana

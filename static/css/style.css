@@ -1,5 +1,5 @@
 body {
-    background-image: url('C:\\projects\\chest_cancer\\Chest_cancer_MLflow_dvc\\static\\images\\bg1.jpeg');
+    background-image: url('../images/bg1.jpeg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -18,10 +18,13 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 80%;
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1 {
-    font-size: 2em;
+.title {
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
@@ -42,11 +45,12 @@ p {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .button:hover {
     background-color: #45a049;
+    transform: scale(1.05);
 }
 
 form input[type="file"] {
@@ -64,11 +68,12 @@ form button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 form button:hover {
     background-color: #45a049;
+    transform: scale(1.05);
 }
 
 img {
@@ -76,4 +81,15 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+.image {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.05);
 }

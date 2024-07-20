@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/projects/chest_cancer/Chest_cancer_MLflow_dvc/mlruns/0/4fa6ed82457947bb96bd54ae7e48835c/artifacts
+end_time: 1721451019874
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4fa6ed82457947bb96bd54ae7e48835c
+run_name: judicious-shark-541
+run_uuid: 4fa6ed82457947bb96bd54ae7e48835c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721451010078
+status: 3
+tags: []
+user_id: kavana

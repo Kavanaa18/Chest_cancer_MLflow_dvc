@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/projects/chest_cancer/Chest_cancer_MLflow_dvc/mlruns/0/03025812a6894c41a478fc0526604986/artifacts
+end_time: 1721410012182
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03025812a6894c41a478fc0526604986
+run_name: upbeat-ant-925
+run_uuid: 03025812a6894c41a478fc0526604986
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721409983513
+status: 3
+tags: []
+user_id: kavana

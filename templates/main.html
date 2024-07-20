@@ -8,10 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>Image Prediction</h1>
+        <h1 class="title">Image Prediction</h1>
         <form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
             <input type="file" name="file" accept="image/*">
-            <button type="submit">Upload and Predict</button>
+            <button type="submit" class="button">Upload and Predict</button>
+            <br>
+            <a href="{{ url_for('home') }}" class="button">Go Back</a>
         </form>
     </div>
 </body>

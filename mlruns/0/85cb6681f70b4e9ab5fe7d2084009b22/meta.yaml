@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/projects/chest_cancer/Chest_cancer_MLflow_dvc/mlruns/0/85cb6681f70b4e9ab5fe7d2084009b22/artifacts
+end_time: 1721413498521
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85cb6681f70b4e9ab5fe7d2084009b22
+run_name: awesome-vole-722
+run_uuid: 85cb6681f70b4e9ab5fe7d2084009b22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721413489092
+status: 3
+tags: []
+user_id: kavana

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/projects/chest_cancer/Chest_cancer_MLflow_dvc/mlruns/0/f8bf69352bdd4ab986902a1cfee70c5b/artifacts
+end_time: 1721412646122
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8bf69352bdd4ab986902a1cfee70c5b
+run_name: nimble-colt-357
+run_uuid: f8bf69352bdd4ab986902a1cfee70c5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721412631733
+status: 3
+tags: []
+user_id: kavana
