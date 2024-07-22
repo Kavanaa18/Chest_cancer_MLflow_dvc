@@ -36,6 +36,6 @@ class PredictPipeline:
         if result[0] == 1:
             prediction = "Normal"
         else:
-            prediction = "Adenocarcinoma"
+            prediction = "Cancerous"
         
         return [{"image": prediction}]

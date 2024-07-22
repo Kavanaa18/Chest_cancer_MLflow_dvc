@@ -7,7 +7,7 @@ app.config['UPLOAD_FOLDER'] = 'static/uploads/'
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return redirect(url_for('main'))
 
 @app.route('/main')
 def main():
@@ -30,4 +30,3 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
