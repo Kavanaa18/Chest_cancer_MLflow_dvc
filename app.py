@@ -34,6 +34,8 @@ def predict():
     return None
 
 if __name__ == "__main__":
+    
+    #calling the clientapp
     clApp = ClientApp()
 
     # app.run(debug=True)
