@@ -5,6 +5,11 @@ import os
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads/'
 
+class ClientApp:
+    def __init__(self):
+        self.filename = "inputImage.jpg"
+        self.classifier = PredictPipeline(self.filename)
+
 @app.route('/')
 def home():
     return redirect(url_for('main'))
@@ -29,7 +34,7 @@ def predict():
     return None
 
 if __name__ == "__main__":
-    
+    clApp = ClientApp()
 
     # app.run(debug=True)
     app.run(host="0.0.0.0" ,port=8080) #for aws
